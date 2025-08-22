@@ -1,0 +1,26 @@
+:root {
+    --beige: #f0d9b5;
+    --brown: #412903;
+}
+
+.container {
+    width: 800px; /*seta o tamanho do tabuleiro*/
+    display: grid;
+    grid-template-columns: 1fr  1fr  1fr  1fr  1fr  1fr  1fr  1fr;
+    grid-template-rows: 1fr  1fr  1fr  1fr  1fr  1fr  1fr  1fr;
+
+    /* grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px; */
+    /* grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px; */
+}
+
+.black {
+    height: 100px;
+    width: 100px;
+    background-color: var(--brown);
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: var(--beige);
+}
